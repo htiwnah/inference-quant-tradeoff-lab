@@ -1,0 +1,57 @@
+{
+  "metrics": {
+    "tests_total": 14,
+    "tests_passed": true,
+    "coverage_line_pct": 99.27,
+    "total_cases": 40,
+    "edge_cases_count": 10,
+    "edge_divergence_cases_count": 10,
+    "mean_accuracy_drop": 0.046,
+    "mean_edge_accuracy_drop": 0.18,
+    "mean_mem_saved_pct": 50.0,
+    "mean_latency_reduction_pct": 32.14,
+    "resolution_floor_pct": 2.5
+  },
+  "anchors": {
+    "tests_total": [
+      "{} tests"
+    ],
+    "coverage_line_pct": [
+      "{}% line coverage"
+    ],
+    "total_cases": [
+      "{} benchmark cases"
+    ],
+    "edge_cases_count": [
+      "{} edge cases"
+    ],
+    "edge_divergence_cases_count": [
+      "{} edge divergences"
+    ],
+    "mean_accuracy_drop": [
+      "{} mean drop"
+    ],
+    "mean_edge_accuracy_drop": [
+      "{} edge drop"
+    ],
+    "mean_mem_saved_pct": [
+      "{}% memory saved"
+    ],
+    "mean_latency_reduction_pct": [
+      "{}% latency reduction"
+    ],
+    "resolution_floor_pct": [
+      "{}% resolution floor"
+    ]
+  },
+  "checked_documents": [
+    "README.md",
+    "CHANGELOG.md",
+    "docs/adr/ADR-001-separate-tail-erosion-from-mean.md",
+    "docs/adr/ADR-002-explicit-three-way-exit-codes.md",
+    "docs/adr/ADR-003-stdlib-core-and-py312-ci.md",
+    "docs/adr/ADR-004-positive-memory-boundary.md",
+    "docs/adr/ADR-005-offline-hardware-boundaries.md"
+  ],
+  "note": "Every value here is produced by running tests and experiments."
+}

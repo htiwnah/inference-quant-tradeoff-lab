@@ -1,0 +1,14 @@
+{
+  "screenshots": [
+    {
+      "file": "docs/screenshots/01_cli_audit.png",
+      "command": "quant-lab audit --fixture fixtures/quant_eval_cases.jsonl --policy policy/quant_policy.json",
+      "exit_code": 1
+    },
+    {
+      "file": "docs/screenshots/02_experiments_receipts.png",
+      "command": "python3 experiments/run_experiments.py && python3 tools/check_numbers.py",
+      "exit_code": 0
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "total_cases": 40,
+  "edge_cases_count": 10,
+  "edge_divergence_cases_count": 10,
+  "mean_accuracy_drop": 0.046,
+  "mean_edge_accuracy_drop": 0.18,
+  "mean_bulk_accuracy_drop": 0.0013,
+  "mean_mem_saved_pct": 50.0,
+  "mean_latency_reduction_pct": 32.14,
+  "resolution_floor_pct": 2.5
+}
