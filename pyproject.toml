@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inference-quant-tradeoff-lab"
+version = "1.0.0"
+description = "Offline quantization analyzer pricing edge-case accuracy erosion alongside memory and latency savings"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Sai Hanwith Bellamkonda", email = "saihanwith.b@mycvcareer.com"}]
+dependencies = []
+
+[project.scripts]
+quant-lab = "inference_quant_tradeoff_lab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]

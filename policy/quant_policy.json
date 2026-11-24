@@ -1,0 +1,7 @@
+{
+  "policy_version": "1.0",
+  "max_allowed_edge_divergence_cases": 0,
+  "edge_drop_threshold": 0.05,
+  "max_mean_accuracy_drop": 0.05,
+  "fixture_path": "fixtures/quant_eval_cases.jsonl"
+}
